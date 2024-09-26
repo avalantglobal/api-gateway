@@ -1,6 +1,12 @@
 #Copy a local file into container
 docker cp ./some_file CONTAINER:/work
 
+#admin
+docker cp ./repository/deployment/server/webapps/admin/site/public/conf/userTheme.js 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/site/public/conf/userTheme.js
+docker cp ./repository/deployment/server/webapps/admin/site/public/images/favicon.png 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/site/public/images/favicon.png
+docker cp ./repository/deployment/server/webapps/admin/site/public/images/logo.svg 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/site/public/images/logo.svg
+docker cp ./repository/deployment/server/webapps/admin/site/public/pages/index.jsp 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/site/public/pages/index.jsp
+
 #authenticationendpoint
 docker cp ./repository/deployment/server/webapps/authenticationendpoint/images/logo.svg 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/authenticationendpoint/images/logo.svg
 docker cp ./repository/deployment/server/webapps/authenticationendpoint/includes/header.jsp 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/authenticationendpoint/includes/header.jsp

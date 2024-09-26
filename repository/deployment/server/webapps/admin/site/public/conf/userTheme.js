@@ -55,7 +55,7 @@ const AppThemes = {
         custom: {
             drawerWidth: 256,
             logo: '/site/public/images/logo.svg',
-            logoWidth: 180,
+            logoWidth: 36,
         },
         overrides: {
             MuiRadio: {
