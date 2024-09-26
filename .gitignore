@@ -2,4 +2,40 @@ backup
 solr
 tmp
 lib
-repository
+
+# repository
+repository/components
+repository/conf
+repository/database
+repository/logs
+repository/resources
+
+# repository/deployment
+repository/deployment/server/artifactMetafiles
+repository/deployment/server/axis2modules
+repository/deployment/server/axis2services
+repository/deployment/server/eventpublishers
+repository/deployment/server/eventreceivers
+repository/deployment/server/eventstreams
+repository/deployment/server/executionplans
+repository/deployment/server/synapse-configs
+
+# repository/deployment/server/webapps
+repository/deployment/server/webapps/am#sample#calculator#v1
+repository/deployment/server/webapps/am#sample#pizzashack#v1
+repository/deployment/server/webapps/api#am#admin
+repository/deployment/server/webapps/api#am#devops#v0
+repository/deployment/server/webapps/api#am#devportal
+repository/deployment/server/webapps/api#am#gateway#v2
+repository/deployment/server/webapps/api#am#publisher
+repository/deployment/server/webapps/api#am#service-catalog#v1
+repository/deployment/server/webapps/api#identity#auth#v1.1
+repository/deployment/server/webapps/api#identity#consent-mgt#v1.0
+repository/deployment/server/webapps/api#identity#oauth2#dcr#v1.1
+repository/deployment/server/webapps/api#identity#oauth2#v1.0
+repository/deployment/server/webapps/api#identity#recovery#v0.9
+repository/deployment/server/webapps/api#identity#user#v1.0
+repository/deployment/server/webapps/client-registration#v0.17
+repository/deployment/server/webapps/internal#data#v1
+repository/deployment/server/webapps/keymanager-operations
+repository/deployment/server/webapps/oauth2
