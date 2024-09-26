@@ -1,0 +1,20 @@
+#Copy a local file into container
+docker cp ./some_file CONTAINER:/work
+
+#authenticationendpoint
+docker cp ./repository/deployment/server/webapps/authenticationendpoint/images/logo.svg 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/authenticationendpoint/images/logo.svg
+docker cp ./repository/deployment/server/webapps/authenticationendpoint/includes/header.jsp 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/authenticationendpoint/includes/header.jsp
+docker cp ./repository/deployment/server/webapps/authenticationendpoint/includes/product-title.jsp 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/authenticationendpoint/includes/product-title.jsp
+docker cp ./repository/deployment/server/webapps/authenticationendpoint/libs/themes/default/assets/images/favicon.ico 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/authenticationendpoint/libs/themes/default/assets/images/favicon.ico
+
+#devportal
+docker cp ./repository/deployment/server/webapps/devportal/site/public/dist/index.80a2c1b7779ea3609ea6.bundle.js 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/dist/index.80a2c1b7779ea3609ea6.bundle.js
+docker cp ./repository/deployment/server/webapps/devportal/site/public/images/_favicon.ico 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/images/_favicon.ico
+docker cp ./repository/deployment/server/webapps/devportal/site/public/images/favicon.ico 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/images/favicon.ico
+docker cp ./repository/deployment/server/webapps/devportal/site/public/images/logo.svg 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/images/logo.svg
+
+#publisher
+docker cp ./repository/deployment/server/webapps/publisher/site/public/dist/index.0a947ffc1dbb86198805.bundle.js 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/site/public/dist/index.0a947ffc1dbb86198805.bundle.js
+docker cp ./repository/deployment/server/webapps/publisher/site/public/images/_favicon.ico 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/site/public/images/_favicon.ico
+docker cp ./repository/deployment/server/webapps/publisher/site/public/images/favicon.ico 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/site/public/images/favicon.ico
+docker cp ./repository/deployment/server/webapps/publisher/site/public/images/logo.svg 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/site/public/images/logo.svg
