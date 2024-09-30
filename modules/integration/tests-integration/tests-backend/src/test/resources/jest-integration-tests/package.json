@@ -14,7 +14,9 @@
     },
     "author": "WSO2 Org",
     "license": "Apache-2.0",
-    "dependencies": {},
+    "dependencies": {
+        "wso2_apim_UI_Integration_tests": "file:"
+    },
     "devDependencies": {
         "@babel/core": "^7.4.4",
         "babel-eslint": "^10.0.2",

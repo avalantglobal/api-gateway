@@ -5,7 +5,7 @@ services:
         # build:
         #     context: .
         #     dockerfile: Dockerfile
-        image: avalantglobal/api-designer:0.0.1
+        image: avalantglobal/api-designer:0.0.2
         restart: on-failure
         deploy:
             mode: replicated
