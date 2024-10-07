@@ -1,6 +1,8 @@
 #Copy a local file into container
 docker cp ./some_file CONTAINER:/work
 
+#[apim.cors]
+#enable = true
 #deployment
 docker cp ./repository/conf/deployment.toml 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/conf/deployment.toml
 

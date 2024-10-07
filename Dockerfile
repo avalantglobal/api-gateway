@@ -19,7 +19,8 @@ FROM wso2/wso2am:4.3.0
 # COPY /source/js/index.80a2c1b7779ea3609ea6.bundle.js /home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/dist/index.80a2c1b7779ea3609ea6.bundle.js
 # Expose the ports we're interested in
 #  8280:8280 -p 8243:8243 -p 9443:9443
-
+# COPY ./deployment.toml /home/wso2carbon/wso2am-4.3.0/repository/conf/deployment.toml
+# RUN chmod +x /home/wso2carbon/wso2am-4.3.0/repository/conf/deployment.toml
 
 #admin
 COPY ./repository/deployment/server/webapps/admin/site/public/conf/userTheme.js /home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/site/public/conf/userTheme.js

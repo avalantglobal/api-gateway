@@ -5,14 +5,14 @@ services:
         build:
             context: .
             dockerfile: Dockerfile
-        image: avalantglobal/api-designer:0.0.3
+        image: avalantglobal/api-designer:0.0.1
         restart: on-failure
         deploy:
             mode: replicated
             restart_policy:
               condition: on-failure
         environment:
-            ENV_TEST: xxx
+            SERVER_DOMAIN: test.oneweb.tech
         ports:
             - "8280:8280"
             - "8243:8243"
