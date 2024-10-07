@@ -1,6 +1,9 @@
 #Copy a local file into container
 docker cp ./some_file CONTAINER:/work
 
+#deployment
+docker cp ./repository/conf/deployment.toml 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/conf/deployment.toml
+
 #admin
 docker cp ./repository/deployment/server/webapps/admin/site/public/conf/userTheme.js 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/site/public/conf/userTheme.js
 docker cp ./repository/deployment/server/webapps/admin/site/public/images/favicon.png 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/site/public/images/favicon.png
