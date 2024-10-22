@@ -86,9 +86,9 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
     <%if(webAdminConsoleTitle != null && webAdminConsoleTitle.trim().length() > 0){ %>
-    <title><%=webAdminConsoleTitle%></title>
+    <title>Avalant API Manager</title>
     <%}else{ %>
-    <title><tiles:getAsString name="title"/></title>
+    <title>Avalant API Manager</title>
     <%}%>
     <link href="<%=globalCSS%>" rel="stylesheet" type="text/css" media="all"/>
 <%
@@ -101,6 +101,7 @@
 	}
 %>
     <link href="<%=mainCSS%>" rel="stylesheet" type="text/css" media="all"/>
+    <link href="../admin/css/main.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="../dialog/css/jqueryui/jqueryui-themeroller.css" rel="stylesheet" type="text/css"
           media="all"/>
     <link href="../dialog/css/dialog.css" rel="stylesheet" type="text/css" media="all"/>

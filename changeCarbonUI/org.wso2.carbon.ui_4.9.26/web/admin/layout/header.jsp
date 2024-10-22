@@ -46,10 +46,13 @@
 <![endif]-->
 <fmt:bundle basename="org.wso2.carbon.i18n.Resources">
 
-    <div id="header-div">
-        <div class="right-logo"><fmt:message key="management.console"/></div>
-        <div class="left-logo">
+    <div id="header-div" style="background-image: none;background-color: rgb(26, 31, 47);">
+        <div class="right-logo" style="color: rgb(255, 255, 255);"><fmt:message key="management.console"/></div>
+        <!--<div class="left-logo">
             <a href="../admin/index.jsp" class="header-home"><img src="../admin/images/1px.gif" width="300px" height="32px"/></a>
+        </div>-->
+        <div class="left-logo" style="width: auto;">
+            <a href="../admin/index.jsp" class="header-home"><img src="../admin/images/api-logo.png" width="32px" height="32px"/></a>
         </div>
         <div class="middle-ad">
             <%@include file="announcements.jsp"%>
@@ -129,23 +132,23 @@
                         %>
 
 		                <li class="middle">
-		                    <label id="logged-user">
+		                    <label id="logged-user" style="color: rgb(255, 255, 255);">
 		                        <strong><fmt:message key="signed.in.as"/>:</strong>&nbsp;<%=signedInAs%>@<%=domainName%>
 		                    </label>
 		                </li>
 				<li class="middle">|</li>
 		                <li class="right">
-		                    <a href="../admin/logout_action.jsp"><fmt:message key="sign.out"/></a>
+		                    <a href="../admin/logout_action.jsp" style="color: rgb(255, 255, 255);"><fmt:message key="sign.out"/></a>
 		                </li>
 		                <%  } else { %>
 		                <li class="right">
-		                    <a href="../admin/login.jsp"><fmt:message key="sign.in"/></a>
+		                    <a href="../admin/login.jsp" style="color: rgb(255, 255, 255);"><fmt:message key="sign.in"/></a>
 		                </li>
 		                <%  } %>
 		                <li class="middle">|</li>
-		                <li class="middle">
+		                <!-- <li class="middle">
 		                    <a target="_blank" href="<%=userGuideURL %>"><fmt:message key="docs"/></a>
-		                </li>
+		                </li> -->
 				<li class="middle">|</li>
 				<%
 				String aboutPageURL = "";
@@ -156,9 +159,9 @@
 					aboutPageURL = "../docs/about.html";
 				}
 				%>
-		                <li class="left">
+		                <!-- <li class="left">
 		                    <a target="_blank" href="<%=aboutPageURL %>"><fmt:message key="about"/></a>
-		                </li>
+		                </li> -->
 		            </ul>
 		</div>
         </div>

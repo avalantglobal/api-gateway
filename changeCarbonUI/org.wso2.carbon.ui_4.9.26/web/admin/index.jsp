@@ -49,15 +49,11 @@
         						.getServerConfigurationProperty("Name");
         %>
         <h2>
-            <fmt:message key="carbon.server.home">
-                <fmt:param value="<%= serverName%>"/>
-            </fmt:message>
+            Avalant API Manager Home
         </h2>
 
         <p>
-            <fmt:message key="carbon.console.welcome">
-                <fmt:param value="<%= serverName%>"/>
-            </fmt:message>
+            Welcome to the Avalant API Manager Management Console
         </p>
 
         <p>&nbsp;</p>

@@ -153,54 +153,6 @@ String bannerContent = adminConfig.getBannerContent();
     <div id="middle">
         <table cellspacing="0" width="100%">
             <tr>
-                <td>
-                    <div id="features">
-                        <table cellspacing="0">
-                            <tr class="feature feature-top">
-                                <td>
-                                    <a target="_blank" href="<%=userGuideURL %>" rel="noopener noreferrer"><img
-                                            src="../admin/images/user-guide.gif"/></a>
-                                </td>
-                                <td>
-                                    <h3><a target="_blank" href="<%=userGuideURL %>"
-                                           rel="noopener noreferrer"><fmt:message key="user.guide"/></a>
-                                    </h3>
-
-                                    <p><fmt:message key="user.guide.text"/></p>
-                                </td>
-                            </tr>
-                            <tr class="feature">
-                                <td>
-                                    <a target="_blank" href="<%=userForumURL %>" rel="noopener noreferrer"><img
-                                            src="../admin/images/forum.gif"/></a>
-                                </td>
-                                <td>
-                                    <h3><a target="_blank" href="<%=userForumURL %>"
-                                           rel="noopener noreferrer"><fmt:message
-                                            key="forum"/></a>
-                                    </h3>
-
-                                    <p><fmt:message key="forum.text"/></p>
-                                </td>
-                            </tr>
-                            <tr class="feature">
-                                <td>
-                                    <a target="_blank"
-                                       href="<%=issuetrackerURL %>" rel="noopener noreferrer"><img
-                                            src="../admin/images/issue-tracker.gif"/></a>
-                                </td>
-                                <td>
-                                    <h3><a target="_blank"
-                                           href="<%=issuetrackerURL %>" rel="noopener noreferrer">
-                                        <fmt:message key="issue.tracker"/></a></h3>
-
-                                    <p><fmt:message key="issue.tracker.text"/></p>
-
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                </td>
                 <td width="20%">
                     <div id="loginbox">
                         <h2><fmt:message key="sign.in"/></h2>
@@ -269,9 +221,6 @@ String bannerContent = adminConfig.getBannerContent();
                             </table>
                         </form>
                         <br/>
-			            <a target="_blank" href="../docs/signin_userguide.html" tabindex="4">
-                            <fmt:message key="sign.in.help"/>
-                        </a>
                     </div>
                 </td>
             </tr>

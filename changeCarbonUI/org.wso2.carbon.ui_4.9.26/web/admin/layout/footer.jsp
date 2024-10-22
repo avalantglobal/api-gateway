@@ -18,9 +18,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8" %>
 <div id="footer-div">
 	<div class="footer-content">
-		<div class="copyright">
+		<!--<div class="copyright">
 		    &copy; <script>document.write(new Date().getFullYear());</script> WSO2 LLC. All Rights Reserved.
-		</div>
+		</div>-->
 		<!--div class="poweredby">
 		</div-->
 	</div>

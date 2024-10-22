@@ -41,13 +41,11 @@
     }
     requestURI = "blah";
     if (requestURI.endsWith("/admin/login.jsp")) { %>
-            <td class="page-header-help"><a href="../docs/signin_userguide.html"
-				target="_blank"><fmt:message key="component.help" /></a></td>
+            <td class="page-header-help"></td>
 <% } else if (requestURI.endsWith("/admin/error.jsp")) { %>
             <td class="page-header-help"></td>
 <% } else { %>
-			<td class="page-header-help"><a href="./docs/userguide.html"
-				target="_blank"><fmt:message key="component.help" /></a></td>
+			<td class="page-header-help"></td>
 <% } %>
 		</tr>
 	</table>
