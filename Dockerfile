@@ -49,5 +49,7 @@ COPY ./repository/deployment/server/webapps/publisher/site/public/images/_favico
 COPY ./repository/deployment/server/webapps/publisher/site/public/images/favicon.ico /home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/site/public/images/favicon.ico
 COPY ./repository/deployment/server/webapps/publisher/site/public/images/logo.svg /home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/site/public/images/logo.svg
 
+#carbon
+COPY ./repository/components/plugins/org.wso2.carbon.ui_4.9.26.jar /home/wso2carbon/wso2am-4.3.0/repository/components/plugins/org.wso2.carbon.ui_4.9.26.jar
 
 EXPOSE 8280 8243 9443
