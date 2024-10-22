@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="core.ui.dscomponent" immediate="true">
+  <implementation class="org.wso2.carbon.ui.internal.CarbonUIServiceComponent"/>
+  <reference name="config.context.service" cardinality="1..1" policy="dynamic" interface="org.wso2.carbon.utils.ConfigurationContextService" bind="setConfigurationContextService" unbind="unsetConfigurationContextService"/>
+  <reference name="http.service" cardinality="1..1" policy="dynamic" interface="org.osgi.service.http.HttpService" bind="setHttpService" unbind="unsetHttpService"/>
+  <reference name="package.admin" cardinality="1..1" policy="dynamic" interface="org.osgi.service.packageadmin.PackageAdmin" bind="setPackageAdmin" unbind="unsetPackageAdmin"/>
+  <reference name="registry.service" cardinality="1..1" policy="dynamic" interface="org.wso2.carbon.registry.core.service.RegistryService" bind="setRegistryService" unbind="unsetRegistryService"/>
+  <reference name="server.configuration" cardinality="1..1" policy="dynamic" interface="org.wso2.carbon.base.api.ServerConfigurationService" bind="setServerConfigurationService" unbind="unsetServerConfigurationService"/>
+  <reference name="tomcat.service.provider" cardinality="1..1" policy="dynamic" interface="org.wso2.carbon.tomcat.api.CarbonTomcatService" bind="setCarbonTomcatService" unbind="unsetCarbonTomcatService"/>
+  <reference name="ui.authentication.extender" cardinality="0..1" policy="dynamic" interface="org.wso2.carbon.ui.UIAuthenticationExtender" bind="setUIAuthenticationExtender" unbind="unsetUIAuthenticationExtender"/>
+  <reference name="user.realmservice.default" cardinality="1..1" policy="dynamic" interface="org.wso2.carbon.user.core.service.RealmService" bind="setRealmService" unbind="unsetRealmService"/>
+</component>
