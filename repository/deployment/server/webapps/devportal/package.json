@@ -1,7 +1,7 @@
 {
     "name": "@wso2apim/devportal",
     "version": "4.0.1",
-    "description": "WSO2 API Manager Developer Portal Web App Note: reverted the swagger-ui version from 3.24.3 to 3.22.2 as POST was not working within swagger console",
+    "description": "Avalant API Manager Developer Portal Web App Note: reverted the swagger-ui version from 3.24.3 to 3.22.2 as POST was not working within swagger console",
     "main": "source/src/index.js",
     "engines": {
         "npm": ">=7.0.0",
