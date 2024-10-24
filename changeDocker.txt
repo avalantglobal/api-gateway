@@ -54,6 +54,7 @@ docker cp ./repository/deployment/server/webapps/devportal/site/public/pages/ind
 docker cp ./repository/deployment/server/webapps/devportal/site/public/pages/index.jsp.hbs 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/pages/index.jsp.hbs
 docker cp ./repository/deployment/server/webapps/devportal/source/src/app/components/Base/index.jsx 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/source/src/app/components/Base/index.jsx
 docker cp ./repository/deployment/server/webapps/devportal/source/src/app/data/defaultTheme.js 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/source/src/app/data/defaultTheme.js
+docker cp ./repository/deployment/server/webapps/devportal/package.json 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/package.json
 
 #publisher
 docker cp ./repository/deployment/server/webapps/publisher/publisher/index.html 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/publisher/index.html
@@ -70,6 +71,7 @@ docker cp ./repository/deployment/server/webapps/publisher/source/src/app/compon
 docker cp ./repository/deployment/server/webapps/publisher/source/src/app/components/Base/Footer/__snapshots__/Footer.test.jsx.snap 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/source/src/app/components/Base/Footer/__snapshots__/Footer.test.jsx.snap
 docker cp ./repository/deployment/server/webapps/publisher/source/src/app/components/ServiceCatalog/Listing/Onboarding.jsx 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/source/src/app/components/ServiceCatalog/Listing/Onboarding.jsx
 docker cp ./repository/deployment/server/webapps/publisher/source/src/app/data/defaultTheme.js 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/source/src/app/data/defaultTheme.js
+docker cp ./repository/deployment/server/webapps/publisher/package.json 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/package.json
 
 #carbon
 docker cp ./repository/components/plugins/org.wso2.carbon.ui_4.9.26.jar 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/components/plugins/org.wso2.carbon.ui_4.9.26.jar

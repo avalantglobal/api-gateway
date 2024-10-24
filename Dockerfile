@@ -70,6 +70,7 @@ COPY ./repository/deployment/server/webapps/devportal/site/public/pages/index.js
 COPY ./repository/deployment/server/webapps/devportal/site/public/pages/index.jsp.hbs /home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/pages/index.jsp.hbs
 COPY ./repository/deployment/server/webapps/devportal/source/src/app/components/Base/index.jsx /home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/source/src/app/components/Base/index.jsx
 COPY ./repository/deployment/server/webapps/devportal/source/src/app/data/defaultTheme.js /home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/source/src/app/data/defaultTheme.js
+COPY ./repository/deployment/server/webapps/devportal/package.json /home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/package.json
 
 #publisher
 COPY ./repository/deployment/server/webapps/publisher/publisher/index.html /home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/publisher/index.html
@@ -86,6 +87,7 @@ COPY ./repository/deployment/server/webapps/publisher/source/src/app/components/
 COPY ./repository/deployment/server/webapps/publisher/source/src/app/components/Base/Footer/__snapshots__/Footer.test.jsx.snap /home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/source/src/app/components/Base/Footer/__snapshots__/Footer.test.jsx.snap
 COPY ./repository/deployment/server/webapps/publisher/source/src/app/components/ServiceCatalog/Listing/Onboarding.jsx /home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/source/src/app/components/ServiceCatalog/Listing/Onboarding.jsx
 COPY ./repository/deployment/server/webapps/publisher/source/src/app/data/defaultTheme.js /home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/source/src/app/data/defaultTheme.js
+COPY ./repository/deployment/server/webapps/publisher/package.json /home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/package.json
 
 #carbon
 COPY ./repository/components/plugins/org.wso2.carbon.ui_4.9.26.jar /home/wso2carbon/wso2am-4.3.0/repository/components/plugins/org.wso2.carbon.ui_4.9.26.jar
