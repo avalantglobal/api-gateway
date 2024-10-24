@@ -6,31 +6,70 @@ docker cp ./some_file CONTAINER:/work
 #deployment
 docker cp ./repository/conf/deployment.toml 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/conf/deployment.toml
 
+#accountrecoveryendpoint
+docker cp ./repository/deployment/server/webapps/accountrecoveryendpoint/images/logo.svg 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/accountrecoveryendpoint/images/logo.svg
+docker cp ./repository/deployment/server/webapps/accountrecoveryendpoint/includes/header.jsp 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/accountrecoveryendpoint/includes/header.jsp
+docker cp ./repository/deployment/server/webapps/accountrecoveryendpoint/includes/product-title.jsp 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/accountrecoveryendpoint/includes/product-title.jsp
+docker cp ./repository/deployment/server/webapps/accountrecoveryendpoint/includes/title.jsp 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/accountrecoveryendpoint/includes/title.jsp
+docker cp ./repository/deployment/server/webapps/accountrecoveryendpoint/libs/themes/default/assets/images/favicon.ico 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/accountrecoveryendpoint/libs/themes/default/assets/images/favicon.ico
+
 #admin
+docker cp ./repository/deployment/server/webapps/admin/admin/index.html 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/admin/index.html
 docker cp ./repository/deployment/server/webapps/admin/site/public/conf/userTheme.js 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/site/public/conf/userTheme.js
+docker cp ./repository/deployment/server/webapps/admin/site/public/dist/ProtectedApps.212770474efcb0451a08.bundle.js 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/site/public/dist/ProtectedApps.212770474efcb0451a08.bundle.js
+docker cp ./repository/deployment/server/webapps/admin/site/public/dist/ProtectedApps.212770474efcb0451a08.bundle.js.map 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/site/public/dist/ProtectedApps.212770474efcb0451a08.bundle.js.map
 docker cp ./repository/deployment/server/webapps/admin/site/public/images/favicon.png 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/site/public/images/favicon.png
 docker cp ./repository/deployment/server/webapps/admin/site/public/images/logo.svg 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/site/public/images/logo.svg
+docker cp ./repository/deployment/server/webapps/admin/site/public/locales/en.json 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/site/public/locales/en.json
+docker cp ./repository/deployment/server/webapps/admin/site/public/locales/si.json 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/site/public/locales/si.json
 docker cp ./repository/deployment/server/webapps/admin/site/public/pages/index.jsp 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/site/public/pages/index.jsp
+docker cp ./repository/deployment/server/webapps/admin/site/public/pages/index.jsp.hbs 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/site/public/pages/index.jsp.hbs
+docker cp ./repository/deployment/server/webapps/admin/source/src/app/components/APICategories/ListApiCategories.jsx 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/source/src/app/components/APICategories/ListApiCategories.jsx
+docker cp ./repository/deployment/server/webapps/admin/source/src/app/components/Base/index.jsx 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/source/src/app/components/Base/index.jsx
+docker cp ./repository/deployment/server/webapps/admin/source/src/app/components/ManageAlerts/ManageAlerts.jsx 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/source/src/app/components/ManageAlerts/ManageAlerts.jsx
+docker cp ./repository/deployment/server/webapps/admin/package.json 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/admin/package.json
 
 #authenticationendpoint
 docker cp ./repository/deployment/server/webapps/authenticationendpoint/images/logo.svg 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/authenticationendpoint/images/logo.svg
+docker cp ./repository/deployment/server/webapps/authenticationendpoint/includes/cookie-policy-content.jsp 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/authenticationendpoint/includes/cookie-policy-content.jsp
 docker cp ./repository/deployment/server/webapps/authenticationendpoint/includes/header.jsp 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/authenticationendpoint/includes/header.jsp
+docker cp ./repository/deployment/server/webapps/authenticationendpoint/includes/privacy-policy-content.jsp 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/authenticationendpoint/includes/privacy-policy-content.jsp
 docker cp ./repository/deployment/server/webapps/authenticationendpoint/includes/product-title.jsp 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/authenticationendpoint/includes/product-title.jsp
+docker cp ./repository/deployment/server/webapps/authenticationendpoint/includes/title.jsp 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/authenticationendpoint/includes/title.jsp
 docker cp ./repository/deployment/server/webapps/authenticationendpoint/libs/themes/default/assets/images/favicon.ico 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/authenticationendpoint/libs/themes/default/assets/images/favicon.ico
 
 #devportal
 docker cp ./repository/deployment/server/webapps/devportal/site/public/dist/index.80a2c1b7779ea3609ea6.bundle.js 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/dist/index.80a2c1b7779ea3609ea6.bundle.js
+docker cp ./repository/deployment/server/webapps/devportal/site/public/dist/index.80a2c1b7779ea3609ea6.bundle.js.map 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/dist/index.80a2c1b7779ea3609ea6.bundle.js.map
+docker cp ./repository/deployment/server/webapps/devportal/site/public/dist/ProtectedApp.c580f0aedf7447d360e1.bundle.js 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/dist/ProtectedApp.c580f0aedf7447d360e1.bundle.js
+docker cp ./repository/deployment/server/webapps/devportal/site/public/dist/ProtectedApp.c580f0aedf7447d360e1.bundle.js.map 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/dist/ProtectedApp.c580f0aedf7447d360e1.bundle.js.map
 docker cp ./repository/deployment/server/webapps/devportal/site/public/images/_favicon.ico 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/images/_favicon.ico
 docker cp ./repository/deployment/server/webapps/devportal/site/public/images/favicon.ico 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/images/favicon.ico
 docker cp ./repository/deployment/server/webapps/devportal/site/public/images/logo.svg 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/images/logo.svg
+docker cp ./repository/deployment/server/webapps/devportal/site/public/locales/ar.json 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/locales/ar.json
+docker cp ./repository/deployment/server/webapps/devportal/site/public/locales/en.json 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/locales/en.json
+docker cp ./repository/deployment/server/webapps/devportal/site/public/locales/es.json 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/locales/es.json
+docker cp ./repository/deployment/server/webapps/devportal/site/public/locales/si.json 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/locales/si.json
 docker cp ./repository/deployment/server/webapps/devportal/site/public/pages/index.jsp 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/pages/index.jsp
+docker cp ./repository/deployment/server/webapps/devportal/site/public/pages/index.jsp.hbs 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/site/public/pages/index.jsp.hbs
+docker cp ./repository/deployment/server/webapps/devportal/source/src/app/components/Base/index.jsx 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/source/src/app/components/Base/index.jsx
+docker cp ./repository/deployment/server/webapps/devportal/source/src/app/data/defaultTheme.js 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/devportal/source/src/app/data/defaultTheme.js
 
 #publisher
+docker cp ./repository/deployment/server/webapps/publisher/publisher/index.html 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/publisher/index.html
 docker cp ./repository/deployment/server/webapps/publisher/site/public/dist/index.0a947ffc1dbb86198805.bundle.js 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/site/public/dist/index.0a947ffc1dbb86198805.bundle.js
+docker cp ./repository/deployment/server/webapps/publisher/site/public/dist/index.0a947ffc1dbb86198805.bundle.js.map 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/site/public/dist/index.0a947ffc1dbb86198805.bundle.js.map
 docker cp ./repository/deployment/server/webapps/publisher/site/public/dist/ProtectedApps.d60522a53e82720119ae.bundle.js 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/site/public/dist/ProtectedApps.d60522a53e82720119ae.bundle.js
+docker cp ./repository/deployment/server/webapps/publisher/site/public/dist/ProtectedApps.d60522a53e82720119ae.bundle.js.map 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/site/public/dist/ProtectedApps.d60522a53e82720119ae.bundle.js.map
 docker cp ./repository/deployment/server/webapps/publisher/site/public/images/_favicon.ico 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/site/public/images/_favicon.ico
 docker cp ./repository/deployment/server/webapps/publisher/site/public/images/favicon.ico 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/site/public/images/favicon.ico
 docker cp ./repository/deployment/server/webapps/publisher/site/public/images/logo.svg 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/site/public/images/logo.svg
+docker cp ./repository/deployment/server/webapps/publisher/site/public/locales/en.json 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/site/public/locales/en.json
+docker cp ./repository/deployment/server/webapps/publisher/site/public/locales/raw.en.json 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/site/public/locales/raw.en.json
+docker cp ./repository/deployment/server/webapps/publisher/source/src/app/components/Base/Footer/Footer.jsx 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/source/src/app/components/Base/Footer/Footer.jsx
+docker cp ./repository/deployment/server/webapps/publisher/source/src/app/components/Base/Footer/__snapshots__/Footer.test.jsx.snap 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/source/src/app/components/Base/Footer/__snapshots__/Footer.test.jsx.snap
+docker cp ./repository/deployment/server/webapps/publisher/source/src/app/components/ServiceCatalog/Listing/Onboarding.jsx 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/source/src/app/components/ServiceCatalog/Listing/Onboarding.jsx
+docker cp ./repository/deployment/server/webapps/publisher/source/src/app/data/defaultTheme.js 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/deployment/server/webapps/publisher/source/src/app/data/defaultTheme.js
 
 #carbon
 docker cp ./repository/components/plugins/org.wso2.carbon.ui_4.9.26.jar 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/components/plugins/org.wso2.carbon.ui_4.9.26.jar
