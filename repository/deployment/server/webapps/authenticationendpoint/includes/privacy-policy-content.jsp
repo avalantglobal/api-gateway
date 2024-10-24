@@ -124,7 +124,7 @@
                     <p>The organization running API-G may revise the Privacy Policy from time to time. You can find the most recent governing policy with the respective link provided by the organization running API-G. The organization will notify any changes to the privacy policy over our official public channels.</p>
                     <div class="margin-bottom"></div>
                     <h3 id="your-choices">Your choices</h3>
-                    <p>If you already have an account with API Manager; you have the right to deactivate your account if you find that this privacy policy is unacceptable for you.</p>
+                    <p>If you already have an account with API Gateway; you have the right to deactivate your account if you find that this privacy policy is unacceptable for you.</p>
                     <p>If you do not have an account, you can choose not to subscribe if you do not agree with our privacy policy.</p>
                     <div class="margin-bottom-double"></div>
                     <h2 id="disclaimer">Disclaimer</h2>
