@@ -8474,7 +8474,7 @@
   "Base.Footer.Footer.product_details": [
     {
       "type": 0,
-      "value": "WSO2 API-M v4.3.0 | © 2024 WSO2 LLC"
+      "value": "Avalant API-G | © 2024 Avalant"
     }
   ],
   "Base.Header.avatar.Avatar.logout": [
@@ -9696,7 +9696,7 @@
   "ServiceCatalog.Listing.Onboarding.sample.heading.text": [
     {
       "type": 0,
-      "value": "Deploy the Sample Integration Service already available with WSO2 API Manager and get started in one click"
+      "value": "Deploy the Sample Integration Service already available with Avalant API Gateway and get started in one click"
     }
   ],
   "ServiceCatalog.Listing.Overview.back.btn": [

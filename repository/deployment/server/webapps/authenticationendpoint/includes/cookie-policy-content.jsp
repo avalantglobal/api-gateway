@@ -27,14 +27,14 @@
             <div>
                 <div>
                     <h1>
-                        WSO2 API Manager - Cookie Policy
+                        Avalant API Gateway - Cookie Policy
                     </h1>
                 </div>
                 <div>
                     <%-- Customizable content. Due to this nature, i18n is not implemented for this section --%>
                     <div id="cookiePolicy">
-                    	<h4><a href="https://wso2.com/api-management/"><strong>About WSO2 API Manager</strong></a></h4>
-                        <p>WSO2 API Manager (referred hereafter as &ldquo;API-M &rdquo;) is an open source enterprise-class solution that supports API publishing, lifecycle management, application development, access control, rate limiting and analytics in one cleanly integrated system.</p>
+                    	<h4><a href="https://wso2.com/api-management/"><strong>About Avalant API Gateway</strong></a></h4>
+                        <p>Avalant API Gateway (referred hereafter as &ldquo;API-M &rdquo;) is an open source enterprise-class solution that supports API publishing, lifecycle management, application development, access control, rate limiting and analytics in one cleanly integrated system.</p>
                         <div class="margin-bottom-double"></div>
                         <h2 id="cookie-policy"><strong>Cookie Policy</strong></h2>
                         <p>API-M uses cookies to provide you with the best user experience, and to securely identify you. You might not be able to access some of the services if you disable cookies.</p>
@@ -166,10 +166,10 @@
                     <p>This cookie policy is only for illustrative purposes of the API-M product. The content in this policy is technically correct at the time of product shipment.
                       The organization which runs this API-M instance has the full authority and responsibility of the effective Cookie Policy.</p>
                     <p>WSO2, its employees, partners, and affiliates do not have access to and do not require, store, process or control any of the data,
-                    including personal data contained in WSO2 API-M. All data, including personal data is controlled and processed by the entity or individual
-                    running WSO2 API-M. WSO2, its employees partners and affiliates are not a data processor or a data controller within the meaning of any data privacy
+                    including personal data contained in Avalant API-G. All data, including personal data is controlled and processed by the entity or individual
+                    running Avalant API-G. WSO2, its employees partners and affiliates are not a data processor or a data controller within the meaning of any data privacy
                     regulations. WSO2 does not provide any warranties or undertake any responsibility or liability in connection with the lawfulness or the manner and purposes for
-                    which WSO2 API-M is used by such entities or persons.</p>
+                    which Avalant API-G is used by such entities or persons.</p>
                 </div>
                 <%-- /Customizable content --%>
             </div>

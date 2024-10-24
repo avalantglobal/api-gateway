@@ -51,8 +51,8 @@
   }
 
   String headerTitle = "API Manager";
-  String pageTitle = "WSO2 API Manager";
-  String footerText = "WSO2 API Manager";
+  String pageTitle = "Avalant API Gateway";
+  String footerText = "Avalant API Gateway";
   String faviconSrc = "libs/theme/assets/images/favicon.ico";
   String logoSrc = null;
   String logoHeight = "50";
@@ -82,7 +82,7 @@
               Object obj = parser.parse(fr);
               JSONObject jsonObject = (JSONObject) obj;
 
-              pageTitle = (String)jsonObject.get("title") != null ? (String)jsonObject.get("title") : "WSO2 API Manager";
+              pageTitle = (String)jsonObject.get("title") != null ? (String)jsonObject.get("title") : "Avalant API Gateway";
 
               JSONObject headerThemeObj = (JSONObject)jsonObject.get("header");
               if (headerThemeObj != null) {

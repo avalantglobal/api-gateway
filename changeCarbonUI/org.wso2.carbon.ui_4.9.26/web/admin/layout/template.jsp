@@ -86,9 +86,9 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
     <%if(webAdminConsoleTitle != null && webAdminConsoleTitle.trim().length() > 0){ %>
-    <title>Avalant API Manager</title>
+    <title>Avalant API Gateway</title>
     <%}else{ %>
-    <title>Avalant API Manager</title>
+    <title>Avalant API Gateway</title>
     <%}%>
     <link href="<%=globalCSS%>" rel="stylesheet" type="text/css" media="all"/>
 <%

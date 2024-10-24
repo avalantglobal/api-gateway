@@ -114,7 +114,7 @@ const ManageAlerts = (props) => {
                 id: 'Manage.Alerts.abnormal.response.time.description',
                 defaultMessage: 'This alert gets triggered if the response time of a particular API '
                 + 'is higher than the predefined value. These alerts could be treated as an indication '
-                + 'of a slow WSO2 API Manager runtime or a slow backend.',
+                + 'of a slow Avalant API Gateway runtime or a slow backend.',
             }),
         },
         2: {

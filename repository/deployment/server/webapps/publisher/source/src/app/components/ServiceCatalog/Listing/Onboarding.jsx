@@ -148,7 +148,7 @@ function Onboarding() {
                         <FormattedMessage
                             id='ServiceCatalog.Listing.Onboarding.sample.heading.text'
                             defaultMessage={'Deploy the Sample Integration Service'
-                            + ' already available with WSO2 API Manager and get started in one click'}
+                            + ' already available with Avalant API Gateway and get started in one click'}
                         />
                     )}
                 >

@@ -262,7 +262,7 @@ export default {
         },
         title: {
             prefix: '[Publisher]',
-            suffix: '- WSO2 APIM',
+            suffix: '- Avalant APIG',
         },
         apis: {
             topMenu: {

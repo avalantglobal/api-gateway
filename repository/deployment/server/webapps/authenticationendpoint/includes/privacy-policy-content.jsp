@@ -27,14 +27,14 @@
             <div>
                 <div>
                     <h1>
-                        WSO2 API Manager - Privacy Policy
+                        Avalant API Gateway - Privacy Policy
                     </h1>
                 </div>
                 <div>
                 <%-- Customizable content. Due to this nature, i18n is not implemented for this section --%>
                 <div id="privacyPolicy" class="padding-double">
-                    <h4><a href="https://wso2.com/api-management/"><strong>About WSO2 API Manager</strong></a></h4>
-                    <p>WSO2 API Manager (referred hereafter as &ldquo;API-M &rdquo;) is an open source enterprise-class solution that supports API publishing, lifecycle management, application development, access control, rate limiting, and analytics in one cleanly integrated system.</p>
+                    <h4><a href="https://wso2.com/api-management/"><strong>About Avalant API Gateway</strong></a></h4>
+                    <p>Avalant API Gateway (referred hereafter as &ldquo;API-M &rdquo;) is an open source enterprise-class solution that supports API publishing, lifecycle management, application development, access control, rate limiting, and analytics in one cleanly integrated system.</p>
                     <div class="margin-bottom-double"></div>
                     <h2 id="privacy-policy"><strong>Privacy Policy</strong></h2>
                     <p>This section explains how API-M captures your personal information, purpose of capturing, and the retention of your personal information.</p>
@@ -133,7 +133,7 @@
                     <div class="margin-bottom-double"></div>
                     <h2 id="disclaimer">Disclaimer</h2>
                     <ol>
-                        <li>This privacy policy statement serves as a template for the organization running WSO2 API-M. The organizational policies will govern the real privacy policy applicable for its business purposes.</li>
+                        <li>This privacy policy statement serves as a template for the organization running Avalant API-G. The organizational policies will govern the real privacy policy applicable for its business purposes.</li>
                         <li>WSO2 or its employees, partners, affiliates do not have access to any data, including privacy-related data held at the organization running API-M.</li>
                         <li>This policy should be modified according to the organizational requirements.</li>
                     </ol>

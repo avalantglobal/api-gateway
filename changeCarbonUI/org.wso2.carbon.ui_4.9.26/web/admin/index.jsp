@@ -49,11 +49,11 @@
         						.getServerConfigurationProperty("Name");
         %>
         <h2>
-            Avalant API Manager Home
+            Avalant API Gateway Home
         </h2>
 
         <p>
-            Welcome to the Avalant API Manager Management Console
+            Welcome to the Avalant API Gateway Management Console
         </p>
 
         <p>&nbsp;</p>

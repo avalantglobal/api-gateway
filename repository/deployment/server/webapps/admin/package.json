@@ -1,7 +1,7 @@
 {
     "name": "@wso2apim/admin",
     "version": "4.0.1",
-    "description": "WSO2 API Manager Admin portal Web App Note: `eslint-plugin-react` have a fixed version due to implementing prop-types does mark nested destructed props from `eslint-plugin-react` next version onwards\n --max_old_space_size: This is max size of the old space( managed heap) in Mbytes make sure not to increase it more than the memory size of builder machines(Prod build)",
+    "description": "Avalant API Gateway Admin portal Web App Note: `eslint-plugin-react` have a fixed version due to implementing prop-types does mark nested destructed props from `eslint-plugin-react` next version onwards\n --max_old_space_size: This is max size of the old space( managed heap) in Mbytes make sure not to increase it more than the memory size of builder machines(Prod build)",
     "main": "app.jsx",
     "engines": {
         "npm": ">=7.0.0",
