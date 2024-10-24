@@ -34,61 +34,61 @@
                     <%-- Customizable content. Due to this nature, i18n is not implemented for this section --%>
                     <div id="cookiePolicy">
                     	<h4><a href="https://wso2.com/api-management/"><strong>About Avalant API Gateway</strong></a></h4>
-                        <p>Avalant API Gateway (referred hereafter as &ldquo;API-M &rdquo;) is an open source enterprise-class solution that supports API publishing, lifecycle management, application development, access control, rate limiting and analytics in one cleanly integrated system.</p>
+                        <p>Avalant API Gateway (referred hereafter as &ldquo;API-G &rdquo;) is an open source enterprise-class solution that supports API publishing, lifecycle management, application development, access control, rate limiting and analytics in one cleanly integrated system.</p>
                         <div class="margin-bottom-double"></div>
                         <h2 id="cookie-policy"><strong>Cookie Policy</strong></h2>
-                        <p>API-M uses cookies to provide you with the best user experience, and to securely identify you. You might not be able to access some of the services if you disable cookies.</p>
+                        <p>API-G uses cookies to provide you with the best user experience, and to securely identify you. You might not be able to access some of the services if you disable cookies.</p>
                         <div class="margin-bottom-double"></div>
                         <h2 id="what-is-a-cookie">What is a cookie &quest;</h2>
                         <p>A browser cookie is a small piece of data that is stored on your device to help websites and mobile apps remember things about you. Other technologies, including Web storage and identifiers associated with your device, may be used for similar purposes. In this policy, we use the term &ldquo;cookies&rdquo; to discuss all of these technologies.</p>
                         <div class="margin-bottom-double"></div>
-                        <h2 id="how-apim-process-cookies">How does API-M process cookies &quest;</h2>
-                        <p>API-M uses cookies to store and retrieve information on your browser. This information is used to provide a better user experience. Some cookies have the primary purpose of allowing logging in to the system, maintaining sessions, and keeping track of activities you do within the login session.</p>
-                        <p>Some cookies used in API-M are used to identify you personally. However, the cookie lifetime will end when you log-out ending your session or when your session expires.</p>
+                        <h2 id="how-apim-process-cookies">How does API-G process cookies &quest;</h2>
+                        <p>API-G uses cookies to store and retrieve information on your browser. This information is used to provide a better user experience. Some cookies have the primary purpose of allowing logging in to the system, maintaining sessions, and keeping track of activities you do within the login session.</p>
+                        <p>Some cookies used in API-G are used to identify you personally. However, the cookie lifetime will end when you log-out ending your session or when your session expires.</p>
                         <p>Some cookies are simply used to give you a more personalised web experience, and these cannot be used to identify you or your activities personally.</p>
-                        <p>This Cookie Policy is part of the API-M Privacy Policy.</p>
+                        <p>This Cookie Policy is part of the API-G Privacy Policy.</p>
                         <div class="margin-bottom-double"></div>
-                        <h2 id="what-apim-use-cookies-for">What does API-M use cookies for &quest;</h2>
-                        <p>Cookies are used for two purposes in API-M</p>
+                        <h2 id="what-apim-use-cookies-for">What does API-G use cookies for &quest;</h2>
+                        <p>Cookies are used for two purposes in API-G</p>
                         <ol>
                            <li>Security.</li>
                            <li>Providing a  better user experience.</li>
                         </ol>
                         <div class="margin-bottom"></div>
-                        <h3 id="apim-uses-cookies-for-the-following-purposes">API-M uses cookies for the following purposes</h3>
+                        <h3 id="apim-uses-cookies-for-the-following-purposes">API-G uses cookies for the following purposes</h3>
                         <h4>Preferences</h4>
-                        <p>API-M uses cookies to remember your settings and preferences and to auto-fill the fields to make your interactions with the site easier.</p>
+                        <p>API-G uses cookies to remember your settings and preferences and to auto-fill the fields to make your interactions with the site easier.</p>
                         <ul>
                             <li>These cannot be used to identify you personally.</li>
                         </ul>
                         <h4>Security</h4>
-                        <p>API-M uses selected cookies to identify and prevent security risks.</p>
-                        <p>For example, API-M may use cookies to store your session information to prevent others from changing your password without your username and password.</p>
-                        <p>API-M uses session cookie to maintain your active session.</p>
-                        <p>API-M may use a temporary cookie when performing multi-factor authentication and federated authentication.</p>
-                        <p>API-M may use permanent cookies to detect the devices you have logged in previously. This is to to calculate the <strong>risk level</strong> associated with your current login attempt. Using these cookies protects you and your account from possible attacks.</p>
+                        <p>API-G uses selected cookies to identify and prevent security risks.</p>
+                        <p>For example, API-G may use cookies to store your session information to prevent others from changing your password without your username and password.</p>
+                        <p>API-G uses session cookie to maintain your active session.</p>
+                        <p>API-G may use a temporary cookie when performing multi-factor authentication and federated authentication.</p>
+                        <p>API-G may use permanent cookies to detect the devices you have logged in previously. This is to to calculate the <strong>risk level</strong> associated with your current login attempt. Using these cookies protects you and your account from possible attacks.</p>
                         <h4>Performance</h4>
-                        <p>API-M may use cookies to allow &ldquo;Remember Me&rdquo; functionalities.</p>
+                        <p>API-G may use cookies to allow &ldquo;Remember Me&rdquo; functionalities.</p>
                         <div class="margin-bottom"></div>
                         <h3 id="analytics">Analytics</h3>
-                        <p>API-M as a product does not use cookies for analytical purposes.</p>
+                        <p>API-G as a product does not use cookies for analytical purposes.</p>
                         <div class="margin-bottom"></div>
                         <h3 id="third-party-cookies">Third party cookies</h3>
-                        <p>Using API-M may cause some third-party cookie being set to your browser. API-M has no control over the operation of these cookies. The third-party cookies which maybe set include,</p>
+                        <p>Using API-G may cause some third-party cookie being set to your browser. API-G has no control over the operation of these cookies. The third-party cookies which maybe set include,</p>
                         <ul>
-                            <li>Any of the social login sites, when API-M is configured to use &ldquo;Social&rdquo; or &ldquo;Federated&rdquo; login, and you opt to do login with your &ldquo;Social Account&rdquo;</li>
+                            <li>Any of the social login sites, when API-G is configured to use &ldquo;Social&rdquo; or &ldquo;Federated&rdquo; login, and you opt to do login with your &ldquo;Social Account&rdquo;</li>
                             <li>Any third party federated login</li>
                         </ul>
-                        <p>We strongly advise you to refer the respective cookie policies of such sites carefully as API-M has no knowledge or use on these cookies.</p>
+                        <p>We strongly advise you to refer the respective cookie policies of such sites carefully as API-G has no knowledge or use on these cookies.</p>
                         <div class="margin-bottom-double"></div>
-                        <h2 id="what-type-of-cookies-apim-use">What type of cookies does API-M use &quest;</h2>
-                        <p>API-M uses persistent cookies and session cookies. A persistent cookie helps API-M to recognize you as an existing user, so you can easily return to WSO2 or interact with API-M without signing in again. After you sign in, a persistent cookie stays in your browser and will be read by API-M when you return.</p>
+                        <h2 id="what-type-of-cookies-apim-use">What type of cookies does API-G use &quest;</h2>
+                        <p>API-G uses persistent cookies and session cookies. A persistent cookie helps API-G to recognize you as an existing user, so you can easily return to WSO2 or interact with API-G without signing in again. After you sign in, a persistent cookie stays in your browser and will be read by API-G when you return.</p>
                         <p>A session cookie is erased when the user closes the Web browser. It is stored in temporarily and is not retained after the browser is closed. Session cookies do not collect information from the user's computer.</p>
                         <div class="margin-bottom-double"></div>
                         <h2 id="how-do-i-control-my-cookies">How do I control my cookies &quest;</h2>
                         <p>Most browsers allow you to control cookies through settings. However, if you limit the ability of websites to set cookies, you may worsen your overall user experience, since it will no longer be personalized to you. It may also stop you from saving customized
-                           settings like login information. Disabling cookies might make you unable to use Authentication and Authorization functionalities offered by API-M.</p>
-                        <p>If you have any questions or concerns regarding the use of cookies, please contact the Data Protection Officer of the organization running this API-M instance.</p>
+                           settings like login information. Disabling cookies might make you unable to use Authentication and Authorization functionalities offered by API-G.</p>
+                        <p>If you have any questions or concerns regarding the use of cookies, please contact the Data Protection Officer of the organization running this API-G instance.</p>
                         <div class="margin-bottom-double"></div>
                         <h2 id="what-are-the-cookies-used">What are the cookies used &quest;</h2>
                         <table class="table table-bordered">
@@ -153,7 +153,7 @@
 		                        <p>i18next</p>
 		                    </td>
 		                    <td>
-		                        <p>Used to track the language API-M is served to you.</p>
+		                        <p>Used to track the language API-G is served to you.</p>
 		                    </td>
 		                    <td>
 		                        <p>Session</p>
@@ -163,8 +163,8 @@
                     </table>
 
                     <h2 id="disclaimer">Disclaimer</h2>
-                    <p>This cookie policy is only for illustrative purposes of the API-M product. The content in this policy is technically correct at the time of product shipment.
-                      The organization which runs this API-M instance has the full authority and responsibility of the effective Cookie Policy.</p>
+                    <p>This cookie policy is only for illustrative purposes of the API-G product. The content in this policy is technically correct at the time of product shipment.
+                      The organization which runs this API-G instance has the full authority and responsibility of the effective Cookie Policy.</p>
                     <p>WSO2, its employees, partners, and affiliates do not have access to and do not require, store, process or control any of the data,
                     including personal data contained in Avalant API-G. All data, including personal data is controlled and processed by the entity or individual
                     running Avalant API-G. WSO2, its employees partners and affiliates are not a data processor or a data controller within the meaning of any data privacy
