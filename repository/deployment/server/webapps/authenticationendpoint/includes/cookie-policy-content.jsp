@@ -82,7 +82,7 @@
                         <p>We strongly advise you to refer the respective cookie policies of such sites carefully as API-G has no knowledge or use on these cookies.</p>
                         <div class="margin-bottom-double"></div>
                         <h2 id="what-type-of-cookies-apim-use">What type of cookies does API-G use &quest;</h2>
-                        <p>API-G uses persistent cookies and session cookies. A persistent cookie helps API-G to recognize you as an existing user, so you can easily return to WSO2 or interact with API-G without signing in again. After you sign in, a persistent cookie stays in your browser and will be read by API-G when you return.</p>
+                        <p>API-G uses persistent cookies and session cookies. A persistent cookie helps API-G to recognize you as an existing user, so you can easily return to Avalant or interact with API-G without signing in again. After you sign in, a persistent cookie stays in your browser and will be read by API-G when you return.</p>
                         <p>A session cookie is erased when the user closes the Web browser. It is stored in temporarily and is not retained after the browser is closed. Session cookies do not collect information from the user's computer.</p>
                         <div class="margin-bottom-double"></div>
                         <h2 id="how-do-i-control-my-cookies">How do I control my cookies &quest;</h2>
@@ -165,10 +165,10 @@
                     <h2 id="disclaimer">Disclaimer</h2>
                     <p>This cookie policy is only for illustrative purposes of the API-G product. The content in this policy is technically correct at the time of product shipment.
                       The organization which runs this API-G instance has the full authority and responsibility of the effective Cookie Policy.</p>
-                    <p>WSO2, its employees, partners, and affiliates do not have access to and do not require, store, process or control any of the data,
+                    <p>Avalant, its employees, partners, and affiliates do not have access to and do not require, store, process or control any of the data,
                     including personal data contained in Avalant API-G. All data, including personal data is controlled and processed by the entity or individual
-                    running Avalant API-G. WSO2, its employees partners and affiliates are not a data processor or a data controller within the meaning of any data privacy
-                    regulations. WSO2 does not provide any warranties or undertake any responsibility or liability in connection with the lawfulness or the manner and purposes for
+                    running Avalant API-G. Avalant, its employees partners and affiliates are not a data processor or a data controller within the meaning of any data privacy
+                    regulations. Avalant does not provide any warranties or undertake any responsibility or liability in connection with the lawfulness or the manner and purposes for
                     which Avalant API-G is used by such entities or persons.</p>
                 </div>
                 <%-- /Customizable content --%>

@@ -72,7 +72,7 @@
                         <li>Tracking your geographic information with the IP address</li>
                         <li>Your login history with browser cookies. Please refer our <strong>cookie policy</strong> for more information</li>
                     </ul>
-                    <p>API-G will also provide recommendation if the user wishes to enable that option in the feature which by default will be switched off. WSO2 shall use a randomised identifier to track the behaviour and will not have access to any personal information of the user.</p>
+                    <p>API-G will also provide recommendation if the user wishes to enable that option in the feature which by default will be switched off. Avalant shall use a randomised identifier to track the behaviour and will not have access to any personal information of the user.</p>
                     <div class="margin-bottom-double"></div>
                     <h2 id="user-of-your-personal-information">Use of your personal information</h2>
                     <p>API-G will use your personal information only for the purposes for which it was collected (or for a use identified as consistent with that purpose).</p>
@@ -126,15 +126,11 @@
                     <h3 id="your-choices">Your choices</h3>
                     <p>If you already have an account with API Manager; you have the right to deactivate your account if you find that this privacy policy is unacceptable for you.</p>
                     <p>If you do not have an account, you can choose not to subscribe if you do not agree with our privacy policy.</p>
-                    <div class="margin-bottom"></div>
-                    <h3 id="contact-us">Contact us</h3>
-                    <p>Please contact us if you have any question or concerns of this privacy policy.</p>
-                    <p><a href="https://wso2.com/contact/">https://wso2.com/contact/</a></p>
                     <div class="margin-bottom-double"></div>
                     <h2 id="disclaimer">Disclaimer</h2>
                     <ol>
                         <li>This privacy policy statement serves as a template for the organization running Avalant API-G. The organizational policies will govern the real privacy policy applicable for its business purposes.</li>
-                        <li>WSO2 or its employees, partners, affiliates do not have access to any data, including privacy-related data held at the organization running API-G.</li>
+                        <li>Avalant or its employees, partners, affiliates do not have access to any data, including privacy-related data held at the organization running API-G.</li>
                         <li>This policy should be modified according to the organizational requirements.</li>
                     </ol>
                 </div>
