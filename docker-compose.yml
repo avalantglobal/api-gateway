@@ -1,20 +1,86 @@
 version: "3.3"
 services:
-    api-designer:
-        stdin_open: true
-        build:
-            context: .
-            dockerfile: Dockerfile
-        image: avalantglobal/api-designer:0.0.3
-        restart: on-failure
-        deploy:
-            mode: replicated
-            restart_policy:
-              condition: on-failure
-        environment:
-            SERVER_DOMAIN: test.oneweb.tech
-        ports:
-            - "8280:8280"
-            - "8243:8243"
-            - "9443:9443"
-       
+  api-designer:
+    stdin_open: true
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: avalantglobal/api-designer:0.0.7
+    restart: on-failure
+    deploy:
+      mode: replicated
+      restart_policy:
+        condition: on-failure
+    environment:
+      SERVER_DOMAIN: test.oneweb.tech
+    ports:
+      - "8280:8280"
+      - "8243:8243"
+      - "9443:9443"
+    networks:
+      - apim-net
+    volumes:
+      - ./repository/conf/deployment.toml:/home/wso2carbon/wso2am-4.3.0/repository/conf/deployment.toml:ro
+      - ./repository/conf/log4j2.properties:/home/wso2carbon/wso2am-4.3.0/repository/conf/log4j2.properties:ro
+      - apim-logs-nv:/home/wso2carbon/wso2am-4.3.0/repository/logs
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.13.4
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - ES_JAVA_OPTS=-Xms1g -Xmx1g
+    ports:
+      - "9200:9200"
+    networks:
+      - apim-net
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+
+  kibana:
+    image: docker.elastic.co/kibana/kibana:8.13.4
+    environment:
+      - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+      - XPACK_SECURITY_ENABLED=false
+    ports:
+      - "5601:5601"
+    depends_on:
+      - elasticsearch
+    networks:
+      - apim-net
+
+  logstash:
+    image: docker.elastic.co/logstash/logstash:8.13.4
+    ports:
+      - "5044:5044"
+    volumes:
+      - ./logstash/pipeline/:/usr/share/logstash/pipeline/:ro
+    depends_on:
+      - elasticsearch
+    networks:
+      - apim-net
+
+  filebeat:
+    image: docker.elastic.co/beats/filebeat:8.13.4
+    user: root
+    entrypoint: ["/bin/sh","-c"]
+    command:
+      - |
+        cp /usr/share/filebeat/filebeat.yml /tmp/filebeat.yml \
+        && chmod go-w /tmp/filebeat.yml \
+        && exec filebeat -e -c /tmp/filebeat.yml
+    volumes:
+      - apim-logs-nv:/apim-logs:ro
+      - ./filebeat/filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
+    depends_on:
+      - logstash
+    networks:
+      - apim-net
+
+networks:
+  apim-net:
+    driver: bridge
+
+volumes:
+  esdata: {}
+  apim-logs-nv: {}

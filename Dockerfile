@@ -92,4 +92,9 @@ COPY ./repository/deployment/server/webapps/publisher/package.json /home/wso2car
 #carbon
 COPY ./repository/components/plugins/org.wso2.carbon.ui_4.9.26.jar /home/wso2carbon/wso2am-4.3.0/repository/components/plugins/org.wso2.carbon.ui_4.9.26.jar
 
+COPY ./changeCarbonUI/postgresql-42.7.6.jar /home/wso2carbon/wso2am-4.3.0/repository/components/lib/postgresql-42.7.6.jar
+
+COPY ./filebeat/filebeat.yml /usr/share/filebeat/filebeat.yml
+COPY ./logstash/pipeline/logstash.conf /usr/share/logstash/pipeline/logstash.conf
+
 EXPOSE 8280 8243 9443

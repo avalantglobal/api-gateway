@@ -1,0 +1,33 @@
+filebeat.inputs:
+  - type: filestream
+    id: wso2_apim_wso2carbon
+    enabled: true
+    paths:
+      - /apim-logs/wso2carbon.log
+    parsers:
+      - multiline:
+          type: pattern
+          pattern: '^\['
+          negate: true
+          match: after
+    processors:
+      - add_fields:
+          target: ""
+          fields:
+            event_type: "apim_payload"
+            source_app: "wso2_apim_gateway"
+
+  - type: filestream
+    id: wso2_apim_metrics
+    enabled: true
+    paths:
+      - /apim-logs/apim_metrics.log
+    processors:
+      - add_fields:
+          target: ""
+          fields:
+            event_type: "apim_metrics"
+            source_app: "wso2_apim_gateway"
+
+output.logstash:
+  hosts: ["logstash:5044"]

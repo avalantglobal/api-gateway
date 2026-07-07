@@ -75,3 +75,6 @@ docker cp ./repository/deployment/server/webapps/publisher/package.json 92c42194
 
 #carbon
 docker cp ./repository/components/plugins/org.wso2.carbon.ui_4.9.26.jar 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/components/plugins/org.wso2.carbon.ui_4.9.26.jar
+
+#postgresql
+docker cp ./changeCarbonUI/postgresql-42.7.6.jar 92c421943cab:/home/wso2carbon/wso2am-4.3.0/repository/components/lib/postgresql-42.7.6.jar
