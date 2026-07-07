@@ -5,10 +5,17 @@ lib
 
 # repository
 repository/components
-repository/conf
-repository/database
 repository/logs
 repository/resources
+
+# repository/conf - WSO2 regenerates most of these from deployment.toml at
+# runtime; only the hand-maintained source files are worth tracking
+repository/conf/*
+!repository/conf/deployment.toml
+!repository/conf/log4j2.properties
+
+# repository/database - runtime H2 data files, not schema
+repository/database
 
 # repository/deployment
 repository/deployment/server/artifactMetafiles
@@ -39,3 +46,8 @@ repository/deployment/server/webapps/client-registration#v0.17
 repository/deployment/server/webapps/internal#data#v1
 repository/deployment/server/webapps/keymanager-operations
 repository/deployment/server/webapps/oauth2
+repository/deployment/server/webapps/oatuh
+repository/deployment/server/webapps/oatuh.war
+
+# stray build/dev artifacts
+req.conf
