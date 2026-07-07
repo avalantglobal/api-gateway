@@ -2,7 +2,7 @@
   "app": {
     "context": "/admin",
     "customUrl": {
-      "enabled": false,
+      "enabled": true,
       "forwardedHeader": "X-Forwarded-For"
     },
     "origin": {
